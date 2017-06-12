@@ -1,0 +1,72 @@
+.form-container {
+	min-width: 360px;
+	max-width: 420px;
+	width: 30%;
+	margin: auto;
+	height: 520px;
+	position: relative;
+	top: 100px;
+	background-color: rgb(171, 199, 189);
+	border-radius: 5px;
+	padding: 30px;
+	margin-top: 30px;
+	box-shadow: 2px 2px 4px 1px gray;
+}
+
+
+.register-top {
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	background-color: rgb(66, 102, 117);
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.register-top h1 {
+	position: relative;
+	top: -5px;
+}
+
+.form-container .form-group {
+	margin-top: 20px;
+}
+
+.form-control {
+	width: 100%;
+}
+
+.sign-up {
+	font-size: 10px;
+	float: right;
+}
+
+button {
+	margin-top: 15px;
+}
+
+.error {
+	background-color: rgb(136, 159, 151);
+	width: 320px;
+	height: 40px;
+	position: relative;
+	display: block;
+	top: -345px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 38px;
+	margin-left: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(255, 206, 67);
+
+}
+
+.error p {
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+}
